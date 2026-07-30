@@ -1,0 +1,32 @@
+# ==========================================
+# Linux Backup & Disaster Recovery
+# ==========================================
+
+# Backup archives
+backups/daily/*.tar.gz
+backups/weekly/*.tar.gz
+backups/monthly/*.tar.gz
+
+# Log files
+logs/*.log
+
+# Restored files
+restored-data/*
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.bak
+*~
+
+# Environment files
+.env
+.env.*
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db

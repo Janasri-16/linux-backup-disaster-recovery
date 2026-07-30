@@ -1,0 +1,23 @@
+version: "3.9"
+
+services:
+  ubuntu:
+    image: ubuntu:24.04
+    container_name: backup-server
+
+    volumes:
+      - ../test-data/home:/home/demo
+      - ../test-data/etc:/etc/demo
+      - ../test-data/www:/var/www
+      - ../backups:/backups
+      - ../logs:/logs
+
+    stdin_open: true
+    tty: true
+
+    command: >
+      bash -c "
+      apt update &&
+      apt install -y rsync tar gzip cron nano &&
+      tail -f /dev/null
+      "
