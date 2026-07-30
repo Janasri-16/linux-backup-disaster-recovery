@@ -31,6 +31,33 @@ A production-inspired Linux Backup & Disaster Recovery automation project built 
 
 ---
 
+## Project Architecture
+
+```mermaid
+flowchart TD
+
+    A[Generate Test Data] --> B[backup.sh]
+
+    B --> C[Create tar.gz Archive]
+
+    C --> D[Store Backup in backups/daily]
+
+    D --> E[rotate.sh]
+
+    E --> F[Keep Latest 7 Backups]
+
+    F --> G[verify_backup.sh]
+
+    G --> H[SHA256 Verification]
+
+    H --> I[Backup Log]
+
+    J[Cron Scheduler] --> B
+
+    K[restore.sh] --> L[Extract Latest Backup]
+
+    L --> M[restored-data]
+```
 ## Project Structure
 
 ```text
