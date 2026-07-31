@@ -162,6 +162,35 @@ Example:
 - Git & GitHub workflow
 
 ---
+## 📸 Screenshots
+
+### Backup Creation
+
+![Backup Creation](screenshots/backup-success.png)
+
+---
+
+### Backup Files
+
+![Backup Files](screenshots/backup-files.png)
+
+---
+
+### Backup Verification
+
+![Backup Verification](screenshots/verify-backup.png)
+
+---
+
+### Restore Process
+
+![Restore Process](screenshots/restore-success.png)
+
+---
+
+### Cron Automation
+
+![Cron Automation](screenshots/cron-schedule.png)
 
 ## Future Improvements
 
