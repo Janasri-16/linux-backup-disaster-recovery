@@ -1,4 +1,4 @@
-# 🚀 Linux Backup & Disaster Recovery Automation
+#  Linux Backup & Disaster Recovery Automation
 
 ![Linux](https://img.shields.io/badge/Linux-Ubuntu-orange?logo=linux)
 ![Bash](https://img.shields.io/badge/Bash-Scripting-green?logo=gnubash)
