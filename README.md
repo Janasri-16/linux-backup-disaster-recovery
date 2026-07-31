@@ -172,7 +172,7 @@ Example:
 
 ### Backup Files
 
-![Backup Files](screenshots/backup files.png)
+![Backup Files](screenshots/Backup files.png)
 
 ---
 
