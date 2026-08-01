@@ -413,6 +413,18 @@ You will observe:
 
 ---
 
+## Cron Automation Output -1
+
+![Output](screenshots/cron-automation-output1.png).
+
+---
+
+## Backups Daily Output
+
+![Output](screenshots/backups-daily-output2.png).
+
+---
+
 # 📚 Learning Outcomes
 
 - Linux Administration
